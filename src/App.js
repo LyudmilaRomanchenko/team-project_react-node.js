@@ -1,7 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
+// import ButtonAddTransaction from "./components/ButtonAddTransaction";
+import FormDialog from "./components/FormDialog";
+// import GreenCircle from "./components/GreenCircle";
+
+import ModalAddTransaction from "./components/ModalAddTransaction";
+import Modal from "./components/Modal";
+
+import { useState } from "react";
 
 function App() {
+  // const [modalActive, setModalActive] = useState(true);
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +26,11 @@ function App() {
         >
           Learn React
         </a>
+        {/* <GreenCircle /> */}
+        {/* <ButtonAddTransaction></ButtonAddTransaction> */}
+        {/* <FormDialog /> */}
+        <ModalAddTransaction />
+        {/* <Modal active={modalActive} setActive={setModalActive} /> */}
       </header>
     </div>
   );

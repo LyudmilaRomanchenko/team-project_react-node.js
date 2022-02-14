@@ -1,0 +1,8 @@
+.circle {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #24cca7;
+  outline: 1px solid #cc243a;
+}
